@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_colours_randomizer/pages/main_page.dart';
+import 'package:flutter_colours_randomizer/pages/flutter_colour_randomizer_main.dart';
 import 'package:flutter_colours_randomizer/providers/theme_provider.dart';
 
 import 'package:provider/provider.dart';
@@ -13,7 +13,9 @@ void main() {
   );
 }
 
+///
 class FlutterColourRandomizer extends StatelessWidget {
+  ///Constructor
   const FlutterColourRandomizer({super.key});
 
   @override
